@@ -3,7 +3,7 @@
     "cluster": "my-webapp-cluster",
     "loadBalancers": [
         {
-            "targetGroupArn": "arn:aws:elasticloadbalancing:us-west-2:000000000000:targetgroup/my-webapp-alb-target-1/00000000000a00aa",
+            "targetGroupArn": "arn:aws:elasticloadbalancing:ap-northeast-1:203246745731:targetgroup/ecstg/3c03d8db5e6bcac6",
             "containerName": "my-webapp",
             "containerPort": 80
         }
@@ -17,11 +17,11 @@
     "networkConfiguration": {
         "awsvpcConfiguration": {
             "subnets": [
-                "subnet_0000000a",
-                "subnet_aa0000a0"
+                "subnet-093160a536d4df97c",
+                "subnet-09bbea0e5324f297c"
             ],
             "securityGroups": [
-				"sg_00aaa0a000000a0aa"
+				"sg-0c30f3f7f4ca49681"
             ],
             "assignPublicIp": "ENABLED"
         }

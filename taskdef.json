@@ -1,9 +1,9 @@
 { 
-   "executionRoleArn":"arn:aws:iam::000000000000:role/Task_Definition_Role",
+   "executionRoleArn":"arn:aws:iam::203246745731:role/Task_Definition_Role",
    "containerDefinitions":[ 
       { 
          "name":"my-webapp",
-         "image":"my-webapp-repo",
+         "image":"<IMAGE1_NAME>",
          "essential":true,
          "portMappings":[ 
             { 
